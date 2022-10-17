@@ -55,6 +55,9 @@ form {
 .search-box:focus {
   outline: none;
 }
+.city-name {
+  text-align: center;
+}
 .city-info {
   font-size: xx-large;
   font-weight: bold;
@@ -71,7 +74,7 @@ form {
 }
 .weather-image {
   position: absolute;
-  margin-top: 10%;
+  margin-top: 25%;
 }
 .weather-info {
   display: flex;
