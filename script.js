@@ -2,7 +2,7 @@ const $ = (selector) => document.querySelector(selector);
 $("form").addEventListener("submit", (e) => {
   e.preventDefault();
   let cityName = e.target[0].value;
-  bringInfo(cityName);
+  bringInfo(cityName.trim());
 });
 const bringInfo = async (cityName) => {
   const api = `https://api.openweathermap.org/data/2.5/weather?appid=1dfc18cb9aee578073a925c7b383a8db&q=${cityName}&units=metric`;
