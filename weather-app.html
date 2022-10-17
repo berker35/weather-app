@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="main-body">
+        <div class="search-body">
+          <form>
+            <input
+              type="text"
+              name="searchbox"
+              class="search-box"
+              id=""
+              placeholder="Search"
+            />
+          </form>
+          <input type="submit" hidden />
+        </div>
+        <div class="city-info">
+          <p class="city-name"></p>
+          <p class="weather-description"></p>
+          <p class="temperature-info"></p>
+        </div>
+        <img class="weather-image" ></img>        
+        <div class="weather-info">
+          <div class="info-flex">
+            <i class="fa-solid fa-temperature-arrow-up"></i>
+            <p class="highest-temp"></p>
+          </div>
+          <div class="info-flex">
+            <i class="fa-solid fa-temperature-arrow-down"></i>
+            <p class="lowest-temp"></p>
+          </div>
+        </div>
+        <div class="specifics-body">
+          <div class="info-flex">
+            <i class="fa-solid fa-wind"></i>
+            <p class="wind"></p>
+          </div>
+          <div class="info-flex">
+            <i class="fa-solid fa-droplet"></i>
+            <p class="humidity"></p>
+          </div>
+          <div class="info-flex">
+            <i class="fa-brands fa-cloudscale"></i>
+            <p class="pressure"></p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
